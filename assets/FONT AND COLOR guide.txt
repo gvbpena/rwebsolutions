@@ -1,0 +1,10 @@
+FONTS:
+
+-Megrim
+-Dosis
+
+COLOR HEXES:
+
+green: 7b7f5d
+blue: 405060
+

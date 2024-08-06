@@ -1,0 +1,175 @@
+body {
+    font-family: "Dosis", sans-serif;
+    color: #405060;
+    background: url("assets/bg-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.main-header {
+    background: url("assets/banner.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    /* background: linear-gradient(to bottom, #ffffff, #e0e0e0, #c0c0c0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 300;
+}
+
+.hero-section {
+    /* padding: 100px 0; */
+    position: relative;
+    /* padding-bottom: 300px; */
+}
+
+.hero-section h1 {
+    font-size: 5rem; /* Adjust the value as needed */
+    font-weight: normal; /* Ensure the text is not bold */
+}
+.logo-header {
+    width: 100px;
+}
+
+.hero-section h1 {
+    font-family: "Megrim", cursive;
+    font-size: 90px;
+}
+
+.artists-section h2 {
+    background: url("assets/bg-1.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: "Megrim", cursive;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.artists-section2,
+.services-section {
+    background: url("assets/bg-2.jpg") no-repeat center center;
+    background-size: cover;
+    /* font-family: "Megrim", cursive; */
+    /* font-size: 36px; */
+}
+
+/* .artists-section h2, */
+.services-section h2,
+.works-section h2 {
+    font-family: "Megrim", cursive;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.artists-section img,
+.works-section img {
+    margin-bottom: 15px;
+}
+
+.footer-section {
+    background: #405060;
+    color: #fff;
+}
+
+.footer-section h4 {
+    font-family: "Megrim", cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 16px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.btn-custom {
+    background-color: #7b7f5e;
+    color: white;
+    padding: 20px; /* Increase padding for larger spacing */
+    font-size: 1.2rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900; /* Adjust the font-weight as needed */
+    letter-spacing: 2px; /* Increase letter spacing */
+}
+
+.btn-custom:hover {
+    background-color: #6a6d54;
+}
+
+.overlay {
+    color: black; /* Adjust the text color if necessary */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 3rem; /* Adjust the font size */
+    font-weight: bold;
+    font-family: "Special Elite", cursive; /* Adjust the font family */
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Adjust the font size */
+    font-family: "Special Elite", cursive; /* Adjust the font family */
+    margin-top: 20px;
+}
+
+.position-relative {
+    position: relative;
+}
+.artist-img {
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Higher opacity white background */
+    color: #000; /* Change text color to black for better contrast */
+    /* padding: 1px 1px; */
+    transform-origin: right top;
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    writing-mode: vertical-rl; /* Vertical text direction */
+    text-orientation: mixed;
+    /* opacity: 0.5; */
+}
+
+/* .position-relative:hover .label {
+    opacity: 0.2;
+} */
+
+.artist-name,
+.artist-role {
+    display: block;
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+.position-relative:hover .label {
+    opacity: 1;
+}
