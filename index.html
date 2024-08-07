@@ -6,7 +6,23 @@
         <title>Inkie - Tattoo & Aesthetics</title>
         <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Dosis:wght@300;400;600&display=swap" rel="stylesheet" />
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./new.css" />
+        <script src="./homepage/service-slider.js"></script>
+        <script src="./homepage/service-carousel.js"></script>
+        <style>
+            @import url("https://fonts.cdnfonts.com/css/proxima-nova");
+            .proxima {
+                font-family: "Proxima Nova", sans-serif;
+            }
+            .carousel {
+                transition: background-color 0.3s ease;
+            }
+            .carousel-active {
+                background-color: #f0f0f0; /* Adjust this to your desired color */
+            }
+        </style>
     </head>
     <body>
         <header class="main-header" style="display: flex; flex-direction: column; justify-content: center">
@@ -62,15 +78,13 @@
             >
                 <h1>We Turn Skin Into Art;</h1>
             </div>
-            <div class="container-fluid">
-                <div class="text-center">
-                    <a
-                        href="#"
-                        class="btn btn-custom w-100 mb-4 py-3 text-uppercase fw-bold"
-                        style="background-color: #7b7f5e; border-color: #7b7f5e; color: #fff; letter-spacing: 4px"
-                        >Book Now</a
-                    >
-                </div>
+            <div class="text-center">
+                <a
+                    href="#"
+                    class="btn btn-custom w-100 mb-4 py-3 text-uppercase fw-bold"
+                    style="background-color: #7b7f5e; border-color: #7b7f5e; color: #fff; letter-spacing: 4px"
+                    >Book Now</a
+                >
             </div>
         </header>
 
@@ -88,48 +102,47 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-1.png" class="img-fluid artist-img" alt="Artist 1" data-original-src="assets/img-artist-1.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-2.png" class="img-fluid artist-img" alt="Artist 2" data-original-src="assets/img-artist-2.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-3.png" class="img-fluid artist-img" alt="Artist 3" data-original-src="assets/img-artist-3.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-4.png" class="img-fluid artist-img" alt="Artist 4" data-original-src="assets/img-artist-4.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-5.png" class="img-fluid artist-img" alt="Artist 5" data-original-src="assets/img-artist-5.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 mb-4 position-relative">
                         <img src="assets/img-artist-bnw-6.png" class="img-fluid artist-img" alt="Artist 6" data-original-src="assets/img-artist-6.png" />
                         <div class="label">
-                            <span class="artist-name"><h2>Solana Mercure</h2></span>
-                            <span class="artist-role">Tattoo Artist</span>
+                            <h4>Tattoo Artist</h4>
+                            <h3>Solana Mercure</h3>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="container-fluid">
                 <div class="text-center">
                     <a
@@ -142,37 +155,45 @@
             </div>
         </section>
 
-        <style>
-            .btn-big {
-                font-size: 1.5rem; /* Adjust size as needed */
-                padding: 2rem; /* Adjust padding for height */
-                width: 300px; /* Adjust width as needed */
-                border-radius: 0; /* Remove rounded corners */
-                display: block; /* Ensure button stretches to specified width */
-                margin: 0 auto; /* Center the button */
-                text-transform: uppercase; /* Capitalize text */
-                font-family: "Megrim", cursive;
-            }
-        </style>
-
-        <section class="services-section text-center py-5 pt-5 pb-5 p-5 text-white" style="margin-top: 150px">
-            <div class="container py-5">
+        <section class="services-section text-center text-white" style="margin-top: 150px">
+            <div class="container">
                 <h2>Services:</h2>
                 <p>Harmonizing Art and Expression</p>
                 <div class="row">
                     <div class="col">
-                        <button class="btn btn-secondary btn-big" style="background-color: #7b7f5e; border-color: #7b7f5e; color: white">Tattoos</button>
+                        <button class="btn btn-secondary btn-big custom-button">Tattoos</button>
                     </div>
                     <div class="col">
-                        <button class="btn btn-secondary btn-big" style="background-color: #7b7f5e; border-color: #7b7f5e; color: white">Aesthetics</button>
+                        <button class="btn btn-secondary btn-big custom-button">Aesthetics</button>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section class="third-section-container proxima" draggable="false" id="service-section">
+            <div class="card border-0" style="background: rgba(255, 255, 255, 0)">
+                <div class="wrapper">
+                    <ul class="carousel">
+                        <li class="card">
+                            <img src="./assets/img-works-1.png" alt="Image 1" class="carousel-image" />
+                        </li>
+                        <li class="card">
+                            <img src="./assets/img-works-2.png" alt="Image 2" class="carousel-image" />
+                        </li>
+                        <li class="card">
+                            <img src="./assets/img-works-3.png" alt="Image 3" class="carousel-image" />
+                        </li>
+                    </ul>
+                    <div class="carousel-button-box">
+                        <i id="left" class="fa-solid fa-angle-left carousel-button"></i>
+                        <i id="right" class="fa-solid fa-angle-right carousel-button"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="works-section text-center py-5">
             <div class="container">
-                <h2>Our Works: Make Your Memories, Wear Your Story</h2>
+                <h2>Our Works:</h2>
+                <p>Make Your Memories, Wear Your Story</p>
                 <div id="worksCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -205,31 +226,58 @@
                 </div>
             </div>
         </section>
+        <div class="text-center">
+            <a
+                href="#"
+                class="btn btn-custom w-100 mb-4 py-3 text-uppercase fw-bold"
+                style="background-color: #7b7f5e; border-color: #7b7f5e; color: #fff; letter-spacing: 4px"
+                >Book Now</a
+            >
+        </div>
 
         <footer class="footer-section text-center py-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h4>Location</h4>
-                        <p>Address, City, Country</p>
-                        <div id="map" style="height: 200px"></div>
+                    <div class="col">
+                        <h2>Location</h2>
+                        <p>Davao City, Philippines</p>
+                        <div class="google-map pt-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.45435803957974!2d125.60314541702034!3d7.094702024391581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d239e0b8d8d%3A0x6803118d251c27d5!2sR%20Web%20Solutions%20Corp.%20Davao!5e0!3m2!1sen!2sph!4v1722999155853!5m2!1sen!2sph"
+                                width="500"
+                                height="300"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <h4>Hours</h4>
+                    <div class="col-">
+                        <img src="assets/logo-footer.png" alt="Footer Logo" class="logo-footer mt-3" />
+                        <h2>INK GIE</h2>
+                        <p>Tattoo & Aesthetics</p>
+                    </div>
+                    <div class="col">
+                        <h2>Hours</h2>
                         <p>Mon - Sat: 9AM - 8PM</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Contact</h4>
+                        <h2>Socials</h2>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fab fa-facebook-f" style="font-size: 30px"></i></a>
+                            <a href="#"><i class="fab fa-instagram" style="font-size: 30px"></i></a>
+                            <a href="#"><i class="fab fa-twitter" style="font-size: 30px"></i></a>
+                        </div>
+                        <h2>Contact</h2>
                         <p>Email: sample@example.com</p>
                         <p>Phone: +123 456 7890</p>
                     </div>
                 </div>
-                <div class="social-links mt-3">
-                    <a href="#"><img src="assets/social-facebook.png" alt="Facebook" /></a>
-                    <a href="#"><img src="assets/social-instagram.png" alt="Instagram" /></a>
-                    <a href="#"><img src="assets/social-twitter.png" alt="Twitter" /></a>
+            </div>
+            <div class="container-fluid">
+                <hr style="height: 2px; width: 100%; border-width: 0; color: white; background-color: white" />
+                <div class="row text-center bg-footer-color pb-4 d-flex justify-content-center">
+                    <h7 class="text-footer-color">Copyright @ 2024 Tatoo Website. Designed & Developed by R Web Solutions Corp. All rights reserved.</h7>
                 </div>
-                <img src="assets/logo-footer.png" alt="Footer Logo" class="logo-footer mt-3" />
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -237,6 +285,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./service-carousel.js"></script>
         <script>
             document.querySelectorAll(".artist-img").forEach((img) => {
                 const originalSrc = img.getAttribute("data-original-src");

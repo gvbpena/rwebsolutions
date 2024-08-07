@@ -15,6 +15,19 @@ body {
     align-items: center;
     text-align: center; */
 }
+
+h4 {
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+}
+h3 {
+    font-family: "Megrim", cursive;
+}
+h2 {
+    font-family: "Megrim", cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
 .navbar {
     background-color: transparent !important;
 }
@@ -51,19 +64,23 @@ body {
     font-weight: 550;
 }
 
-.artists-section2,
+.artists-section2 {
+    background: url("assets/bg-2.jpg") no-repeat center center;
+}
 .services-section {
     background: url("assets/bg-2.jpg") no-repeat center center;
     background-size: cover;
-    /* font-family: "Megrim", cursive; */
-    /* font-size: 36px; */
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 /* .artists-section h2, */
 .services-section h2,
 .works-section h2 {
     font-family: "Megrim", cursive;
-    font-size: 36px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -143,26 +160,18 @@ body {
 
 .label {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 100%;
+    left: 38%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Higher opacity white background */
-    color: #000; /* Change text color to black for better contrast */
-    /* padding: 1px 1px; */
-    transform-origin: right top;
-    font-size: 20px; /* Adjust font size as needed */
-    font-weight: bold;
-    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    transform-origin: left bottom;
     opacity: 0;
     transition: opacity 0.3s ease;
-    writing-mode: vertical-rl; /* Vertical text direction */
+    writing-mode: vertical-lr;
     text-orientation: mixed;
-    /* opacity: 0.5; */
+    transform: rotate(180deg);
 }
-
-/* .position-relative:hover .label {
-    opacity: 0.2;
-} */
 
 .artist-name,
 .artist-role {
@@ -172,4 +181,39 @@ body {
 
 .position-relative:hover .label {
     opacity: 1;
+}
+
+.btn-big {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    padding: 1rem 2rem; /* Adjust padding for a larger button */
+}
+
+.custom-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.custom-button:hover {
+    background-color: #7b7f5e;
+}
+
+.social-links a {
+    margin-right: 15px;
+    font-size: 30px;
+    color: black;
+}
+.social-links a:hover {
+    color: #7b7f5e;
+}
+
+.btn-big {
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: "Megrim", cursive;
 }
